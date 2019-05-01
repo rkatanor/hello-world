@@ -8,16 +8,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController(value="/rs")
 public class HelloWorldApplication extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {
 		SpringApplication.run(HelloWorldApplication.class, args);
 	}
-	@GetMapping(value="/hello")
-	public String helloWorld() {
-		return "Hello world welcome to AWS";
-	}
+	
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
 		// TODO Auto-generated method stub
