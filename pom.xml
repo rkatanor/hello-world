@@ -59,7 +59,7 @@
 					<server>TomcatServer</server>
 					<username>admin</username>
 					<password>admin</password>
-					<path>/helloworld</path>
+					<path>/helloworldapp</path>
 				</configuration>
 			</plugin>
 			<plugin>
