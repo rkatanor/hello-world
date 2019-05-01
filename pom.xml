@@ -50,23 +50,23 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<!--  <plugin>
+			 <plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<url>http://localhost:8086/manager/text</url>
+					<url>http://18.217.111.18:8085/manager/text</url>
 					<server>TomcatServer</server>
 					<username>admin</username>
-					<password>password</password>
+					<password>admin</password>
 					<path>/helloworld</path>
 				</configuration>
-			</plugin>-->
+			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
+			<!-- <plugin>
 	<groupId>org.wildfly.plugins</groupId>
 	<artifactId>wildfly-maven-plugin</artifactId>
 	<version>1.2.1.Final</version>
@@ -77,7 +77,7 @@
 		<password>kata@1212JBOSS</password>
 		<name>helloworld1.war</name>
 	</configuration>		
-  </plugin>
+  </plugin> -->
 		</plugins>
 	</build>
 
