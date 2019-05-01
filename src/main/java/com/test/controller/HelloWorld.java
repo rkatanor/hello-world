@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorld {
 		@GetMapping(value="/welcome")
 		public String helloWorld() {
-			return "Hello welcome to AWS Cloud Compute..";
+			return "Hello welcome to AWS Cloud Computing..";
 		}
 }
